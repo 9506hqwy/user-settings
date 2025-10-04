@@ -1,0 +1,6 @@
+{
+    "dev.containers.dockerPath": "podman",
+    "editor.codeLens": false,
+    "editor.minimap.enabled": false,
+    "workbench.tree.indent": 16
+}

@@ -1,0 +1,100 @@
+[
+    { "key": "alt+1", "command": "", "when": "terminalFocus" },
+    { "key": "alt+2", "command": "", "when": "terminalFocus" },
+    { "key": "alt+3", "command": "", "when": "terminalFocus" },
+    { "key": "alt+4", "command": "", "when": "terminalFocus" },
+    { "key": "alt+5", "command": "", "when": "terminalFocus" },
+    { "key": "alt+6", "command": "", "when": "terminalFocus" },
+    { "key": "alt+7", "command": "", "when": "terminalFocus" },
+    { "key": "alt+8", "command": "", "when": "terminalFocus" },
+    { "key": "alt+9", "command": "", "when": "terminalFocus" },
+    { "key": "alt+0", "command": "", "when": "terminalFocus" },
+    { "key": "alt+a", "command": "", "when": "terminalFocus" },
+    { "key": "alt+b", "command": "", "when": "terminalFocus" },
+    { "key": "alt+c", "command": "", "when": "terminalFocus" },
+    { "key": "alt+d", "command": "", "when": "terminalFocus" },
+    { "key": "alt+e", "command": "", "when": "terminalFocus" },
+    { "key": "alt+f", "command": "", "when": "terminalFocus" },
+    { "key": "alt+g", "command": "", "when": "terminalFocus" },
+    { "key": "alt+h", "command": "", "when": "terminalFocus" },
+    { "key": "alt+i", "command": "", "when": "terminalFocus" },
+    { "key": "alt+j", "command": "", "when": "terminalFocus" },
+    { "key": "alt+k", "command": "", "when": "terminalFocus" },
+    { "key": "alt+l", "command": "", "when": "terminalFocus" },
+    { "key": "alt+m", "command": "", "when": "terminalFocus" },
+    { "key": "alt+n", "command": "", "when": "terminalFocus" },
+    { "key": "alt+o", "command": "", "when": "terminalFocus" },
+    { "key": "alt+p", "command": "", "when": "terminalFocus" },
+    { "key": "alt+q", "command": "", "when": "terminalFocus" },
+    { "key": "alt+r", "command": "", "when": "terminalFocus" },
+    { "key": "alt+s", "command": "", "when": "terminalFocus" },
+    { "key": "alt+t", "command": "", "when": "terminalFocus" },
+    { "key": "alt+u", "command": "", "when": "terminalFocus" },
+    { "key": "alt+v", "command": "", "when": "terminalFocus" },
+    { "key": "alt+w", "command": "", "when": "terminalFocus" },
+    { "key": "alt+x", "command": "", "when": "terminalFocus" },
+    { "key": "alt+y", "command": "", "when": "terminalFocus" },
+    { "key": "alt+z", "command": "", "when": "terminalFocus" },
+    { "key": "alt+oem_1", "command": "", "when": "terminalFocus" }, // alt + :
+    { "key": "alt+oem_2", "command": "", "when": "terminalFocus" }, // alt + /
+    { "key": "alt+oem_3", "command": "", "when": "terminalFocus" }, // alt + @
+    { "key": "alt+oem_4", "command": "", "when": "terminalFocus" }, // alt + [
+    { "key": "alt+oem_5", "command": "", "when": "terminalFocus" }, // alt + \
+    { "key": "alt+oem_6", "command": "", "when": "terminalFocus" }, // alt + ]
+    { "key": "alt+oem_7", "command": "", "when": "terminalFocus" }, // alt + ^
+    { "key": "alt+oem_102", "command": "", "when": "terminalFocus" }, // alt + \
+    { "key": "alt+oem_comma", "command": "", "when": "terminalFocus" }, // alt + ,
+    { "key": "alt+oem_minus", "command": "", "when": "terminalFocus" }, // alt + -
+    { "key": "alt+oem_period", "command": "", "when": "terminalFocus" }, // alt + .
+    { "key": "alt+oem_plus", "command": "", "when": "terminalFocus" }, // alt + ;
+
+    { "key": "ctrl+1", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+2", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+3", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+4", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+5", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+6", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+7", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+8", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+9", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+0", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+a", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+b", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+c", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+d", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+e", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+f", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+g", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+h", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+i", "command": "", "when": "terminalFocus" },
+    // workbench.action.togglePanel
+    //{ "key": "ctrl+j", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+k", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+l", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+m", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+n", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+o", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+p", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+q", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+r", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+s", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+t", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+u", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+v", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+w", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+x", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+y", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+z", "command": "", "when": "terminalFocus" },
+    { "key": "ctrl+oem_1", "command": "", "when": "terminalFocus" }, // ctrl + :
+    { "key": "ctrl+oem_2", "command": "", "when": "terminalFocus" }, // ctrl + /
+    { "key": "ctrl+oem_3", "command": "", "when": "terminalFocus" }, // ctrl + @
+    { "key": "ctrl+oem_4", "command": "", "when": "terminalFocus" }, // ctrl + [
+    { "key": "ctrl+oem_5", "command": "", "when": "terminalFocus" }, // ctrl + \
+    { "key": "ctrl+oem_6", "command": "", "when": "terminalFocus" }, // ctrl + ]
+    { "key": "ctrl+oem_7", "command": "", "when": "terminalFocus" }, // ctrl + ^
+    { "key": "ctrl+oem_102", "command": "", "when": "terminalFocus" }, // ctrl + \
+    { "key": "ctrl+oem_comma", "command": "", "when": "terminalFocus" }, // ctrl + ,
+    { "key": "ctrl+oem_minus", "command": "", "when": "terminalFocus" }, // ctrl + -
+    { "key": "ctrl+oem_period", "command": "", "when": "terminalFocus" }, // ctrl + .
+    { "key": "ctrl+oem_plus", "command": "", "when": "terminalFocus" } // ctrl + ;
+]
