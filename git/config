@@ -1,0 +1,81 @@
+[alias]
+ci = commit
+st = status
+
+squash = merge --squash
+
+[color]
+ui = true
+
+[commit]
+gpgsign = true
+status = false
+template = ~/.config/git/message
+
+[core]
+autocrlf = false
+editor = edit
+excludesfile = ~/.config/git/ignore
+ignoreCase = false
+pager = delta
+preloadindex = true
+symlinks = true
+
+# for japanese
+quotepath = false
+
+# for windows
+fscache = true
+longpaths = true
+protectNTFS = true
+
+[diff]
+algorithm = histogram
+guitool = vscode
+renames = true
+
+[difftool "vscode"]
+cmd = code --wait --diff "$LOCAL" "$REMOTE"
+
+[help]
+autocorrect = 0
+
+[log]
+decorate = auto
+
+[merge]
+autoStash = true
+conflictStyle = zdiff3
+guitool = vscode
+renames = true
+
+[mergetool "vscode"]
+cmd = code --wait --merge "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+
+[pull]
+autoStash = true
+rebase = true
+
+[push]
+default = simple
+
+[rebase]
+autoStash = true
+stat = false
+
+[status]
+renames = true
+short = true
+
+[user]
+email = 97424592+9506hqwy@users.noreply.github.com
+name = 9506hqwy
+signingkey = 0572CD805E0313B2
+
+# for delta
+[delta]
+line-numbers = true
+true-color = always
+
+[interactive]
+diffFilter = delta --color-only

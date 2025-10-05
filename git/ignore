@@ -1,0 +1,11 @@
+# VCS
+.hg/
+.svn/
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Conflict files
+*.rej
