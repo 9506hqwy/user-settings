@@ -1,0 +1,71 @@
+[color]
+pagermode = ansi
+diff.deleted.changed = white red_background
+diff.deleted.unchanged = white
+diff.inserted.changed = white green_background
+diff.inserted.unchanged = white
+
+[committemplate]
+changeset = {desc}\n
+    HG: コミットメッセージを入力する。
+
+[diff]
+git = True
+word-diff = true
+
+[extensions]
+# builtin
+blackbox =
+extdiff =
+highlight =
+histedit =
+journal =
+rebase =
+shelve =
+win32mbcs =
+
+# 3rd party
+evolve =
+
+[merge-tools]
+vscode.executable = code
+vscode.args = --wait --merge "$local" "$other" "$base" "$output"
+vscode.premerge = keep-merge3
+vscode.checkchanged = True
+vscode.checkconflicts = True
+vscode.gui = True
+
+[pager]
+pager = less -FRX
+
+[patch]
+eol = strict
+
+[phases]
+publish = False
+
+[rebase]
+evolution.allowdivergence = True
+
+[ui]
+editor = edit
+ignore = ~/.hgignore
+merge = vscode
+mergemarkers = detailed
+statuscopies = True
+strict = True
+username = 9506hqwy <97424592+9506hqwy@users.noreply.github.com>
+
+[web]
+allow-archive = bz2 gz zip
+allow-push = *
+encoding = UTF-8
+push_ssl = False
+
+# extdiff extension
+[extdiff]
+vsdiff = code
+
+[diff-tools]
+vsdiff.diffargs = --wait --diff "$parent" "$child"
+vsdiff.gui = True
