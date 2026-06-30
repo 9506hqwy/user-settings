@@ -2,5 +2,15 @@
     "dev.containers.dockerPath": "podman",
     "editor.codeLens": false,
     "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "devbox",
+    "terminal.integrated.profiles.linux": {
+        "devbox": {
+            "path": "/bin/bash",
+            "args": [
+                "-c",
+                "[ -z \"${REMOTE_CONTAINERS}\" ] && [ -f \"devbox.json\" ] && devbox shell || bash"
+            ]
+        }
+    },
     "workbench.tree.indent": 16
 }
