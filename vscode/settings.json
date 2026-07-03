@@ -15,7 +15,12 @@
             "args": [
                 "-c",
                 "[ -z \"${REMOTE_CONTAINERS}\" ] && [ -f \"devbox.json\" ] && devbox shell || bash"
-            ]
+            ],
+            "env": {
+                // https://code.visualstudio.com/docs/reference/variables-reference
+                "MY_VSCODE_PROJECT_PATH": "${workspaceFolder}",
+                "MY_VSCODE_PROJECT_NAME": "${workspaceFolderBasename}"
+            }
         }
     },
     "workbench.tree.indent": 16
