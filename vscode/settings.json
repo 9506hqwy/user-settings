@@ -2,6 +2,7 @@
     "dev.containers.dockerPath": "podman",
     "editor.codeLens": false,
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
     "git.detectWorktrees": true,
     // When use `RemoteCommand`/`RequestTTY` in ssh config,
     // need to remove entry from `remote.SSH.remotePlatform`.
@@ -22,6 +23,9 @@
                 "MY_VSCODE_PROJECT_NAME": "${workspaceFolderBasename}"
             }
         }
+    },
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#778899"
     },
     "workbench.tree.indent": 16
 }
